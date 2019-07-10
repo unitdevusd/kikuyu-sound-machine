@@ -1,0 +1,30 @@
+/*------- Font Family Starts -------*/
+
+@font-face { font-family: "Double_Bubble_shadow"; src: url("../fonts/Double_Bubble_shadow.otf"); }
+
+/*------- Font Family Ends -------*/
+
+/*------- Reset CSS Starts -------*/
+
+html { font-size: 10px; letter-spacing: 1px; }
+body { background: #232526; background: -webkit-linear-gradient(to right, #414345, #232526); background: linear-gradient(to bottom, #414345, #232526); height: 100vh; }
+body, ul { box-sizing: border-box; margin: 0; padding: 0; }
+li { list-style: none; }
+a,
+a:hover,
+a:focus { text-decoration: none; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; }
+
+/*------- Reset CSS Ends -------*/
+
+/*------- Button CSS Starts -------*/
+
+.adjust-button { left: 50%; position: absolute; top: 50%; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); }
+.btn-listing > li { display: inline-block; margin-right: 15px; }
+.btn-listing > li:last-child { margin-right: 0; }
+.btn-listing > li:first-child > a { background-color: #FF5733; }
+.btn-listing > li:nth-child(2) > a { background-color: #33DDFF; }
+.btn-listing > li:last-child > a { background-color: #FF3383; }
+.btn-listing > li > a { border-radius: 7px; -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; color: #000; display: block; font: 3rem/1.42857143 "Double_Bubble_shadow"; letter-spacing: 4px; padding: 15px; }
+.btn-listing > li.active > a { background-color: #fff; }
+
+/*------- Button CSS Ends -------*/

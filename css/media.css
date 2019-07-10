@@ -1,0 +1,20 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	/*------- Button CSS Starts -------*/
+
+	.adjust-button { text-align: center; width: 100%; }
+
+	/*------- Button CSS Ends -------*/
+
+}
+
+@media only screen and (max-width: 767px) {
+	
+	/*------- Button CSS Starts -------*/
+
+	.btn-listing { text-align: center; }
+	.btn-listing > li { display: block; margin: 0 0 15px 0; }
+
+	/*------- Button CSS Ends -------*/
+
+}
