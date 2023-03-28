@@ -1,15 +1,17 @@
 /*------- Font Family Starts -------*/
 
-@font-face { font-family: "Double_Bubble_shadow"; src: url("../fonts/Double_Bubble_shadow.otf"); }
+/* @font-face { font-family: "Double_Bubble_shadow"; src: url("../fonts/Double_Bubble_shadow.otf"); } */
 
 /*------- Font Family Ends -------*/
 
 /*------- Reset CSS Starts -------*/
 
-html { font-size: 10px; letter-spacing: 1px; }
+html { font-size: 10px; letter-spacing: 10px; }
 body { background: #232526; background: -webkit-linear-gradient(to right, #414345, #232526); background: linear-gradient(to bottom, #414345, #232526); height: 100vh; }
 body, ul { box-sizing: border-box; margin: 0; padding: 0; }
-li { list-style: none; }
+li { 
+    list-style: none; 
+}
 a,
 a:hover,
 a:focus { text-decoration: none; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; }
@@ -21,10 +23,33 @@ a:focus { text-decoration: none; transition: 0.5s linear; -webkit-transition: 0.
 .adjust-button { left: 50%; position: absolute; top: 50%; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); }
 .btn-listing > li { display: inline-block; margin-right: 15px; }
 .btn-listing > li:last-child { margin-right: 0; }
-.btn-listing > li:first-child > a { background-color: #FF5733; }
+.btn-listing > li:first-child > a { background-color: #33DDFF; }
 .btn-listing > li:nth-child(2) > a { background-color: #33DDFF; }
-.btn-listing > li:last-child > a { background-color: #FF3383; }
+.btn-listing > li:nth-child(9) > a { background-color: #FF5733; }
+.btn-listing > li:nth-child(3) > a { background-color: #33DDFF; }
+.btn-listing > li:nth-child(4) > a { background-color: #33DDFF; }
+.btn-listing > li:nth-child(5) > a { background-color: #33DDFF; }
+.btn-listing > li:nth-child(6) > a { background-color: #33DDFF; }
+.btn-listing > li:nth-child(7) > a { background-color: #33DDFF; }
+.btn-listing > li:nth-child(8) > a { background-color: #33DDFF; }
+.btn-listing > li:nth-child(9) > a { background-color: #FF5733; }
+.btn-listing > li:nth-child(10) > a { background-color: #33DDFF; }
+.btn-listing > li:nth-child(11) > a { background-color: #33DDFF; }
+.btn-listing > li:nth-child(12) > a { background-color: #33DDFF; }
+.btn-listing > li:nth-child(13) > a { background-color: #33DDFF; }
+.btn-listing > li:nth-child(14) > a { background-color: #33DDFF; }
+.btn-listing > li:nth-child(15) > a { background-color: #33DDFF; }
+.btn-listing > li:nth-child(16) > a { background-color: #33DDFF; }
+.btn-listing > li:nth-child(17) > a { background-color: #33DDFF; }
+.btn-listing > li:nth-child(18) > a { background-color: #FF5733; }
+.btn-listing > li:nth-child(19) > a { background-color: #33DDFF; }
+.btn-listing > li:last-child > a { background-color: #33DDFF; }
 .btn-listing > li > a { border-radius: 7px; -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; color: #000; display: block; font: 3rem/1.42857143 "Double_Bubble_shadow"; letter-spacing: 4px; padding: 15px; }
 .btn-listing > li.active > a { background-color: #fff; }
+
+.btn-listing{
+    display: flex;
+    align-items: space-between;
+}
 
 /*------- Button CSS Ends -------*/
